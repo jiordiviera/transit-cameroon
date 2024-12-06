@@ -20,8 +20,7 @@ export async function POST(req: Request) {
         });
 
         return NextResponse.json(data);
-    } catch (error) {
+    } catch (error: unknown) {
         return NextResponse.json({ error });
     }
 }
-
