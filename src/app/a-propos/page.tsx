@@ -55,8 +55,8 @@ export default function About() {
                         { name: "Marie Kouam", company: "Cameroon Logistics", text: "Travailler avec Douane Transit Cameroun a été un véritable game-changer pour notre entreprise. Leur connaissance approfondie des procédures douanières nous a fait gagner un temps précieux." }
                     ].map((testimonial, index) => (
                         <div key={index} className="bg-white p-6 rounded-lg shadow-md">
-                            <p className="mb-4 italic text-gray-400">&#34;{testimonial.text}&#34;</p>
-                            <p className="font-semibold text-gray-500">{testimonial.name}</p>
+                            <p className="mb-4 italic">&#34;{testimonial.text}&#34;</p>
+                            <p className="font-semibold">{testimonial.name}</p>
                             <p className="text-sm text-gray-600">{testimonial.company}</p>
                         </div>
                     ))}
