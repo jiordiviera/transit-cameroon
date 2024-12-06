@@ -17,6 +17,7 @@ export default function About() {
                         alt="Notre équipe"
                         width={600}
                         height={400}
+                        loading='lazy'
                         className="rounded-lg shadow-lg"
                     />
                 </div>

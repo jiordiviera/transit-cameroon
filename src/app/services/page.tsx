@@ -54,6 +54,7 @@ export default function Services() {
                             alt="Équipe d'experts en douane"
                             width={600}
                             height={400}
+                            loading='lazy'
                             className="rounded-lg shadow-lg"
                         />
                     </div>
@@ -98,4 +99,3 @@ export default function Services() {
         </div>
     )
 }
-

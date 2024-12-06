@@ -30,6 +30,7 @@ export default function Home() {
                   alt="Port de Douala"
                   width={600}
                   height={400}
+                  loading='lazy'
                   className="rounded-lg shadow-2xl"
               />
             </div>
@@ -86,4 +87,3 @@ export default function Home() {
       </div>
   )
 }
-

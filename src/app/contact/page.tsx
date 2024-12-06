@@ -25,6 +25,7 @@ export default function Contact() {
                         alt="Notre service client à votre écoute"
                         width={600}
                         height={400}
+                        loading='lazy'
                         className="rounded-lg shadow-lg mb-8"
                     />
                     <h2 className="text-2xl font-heading font-semibold mb-6 text-cameroon-red">Nos coordonnées</h2>
@@ -65,4 +66,3 @@ export default function Contact() {
         </div>
     )
 }
-
