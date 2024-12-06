@@ -26,7 +26,7 @@ export default function Home() {
             </div>
             <div className="md:w-1/2">
               <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="/images/container-cargo.jpg"
                   alt="Port de Douala"
                   width={600}
                   height={400}

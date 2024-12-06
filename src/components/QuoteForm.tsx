@@ -90,7 +90,7 @@ export default function QuoteForm() {
                 />
             </div>
             <div>
-                <label htmlFor="origin" className="block text-sm font-medium text-gray-700">Pays d'origine</label>
+                <label htmlFor="origin" className="block text-sm font-medium text-gray-700">Pays d&#39;origine</label>
                 <input
                     type="text"
                     id="origin"

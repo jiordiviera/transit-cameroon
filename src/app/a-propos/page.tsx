@@ -13,7 +13,7 @@ export default function About() {
             <div className="flex flex-col md:flex-row items-center mb-12">
                 <div className="md:w-1/2 mb-8 md:mb-0 md:pr-8">
                     <Image
-                        src="/placeholder.svg?height=400&width=600"
+                        src="/images/professional-team.jpg"
                         alt="Notre équipe"
                         width={600}
                         height={400}
@@ -26,7 +26,7 @@ export default function About() {
                         Fondée en 2005, Douane Transit Cameroun est née de la vision de simplifier les procédures douanières et de transit pour les entreprises opérant au Cameroun. Depuis notre création, nous nous sommes engagés à fournir des services de haute qualité, adaptés aux besoins spécifiques de nos clients.
                     </p>
                     <p>
-                        Avec plus de 15 ans d&#39;expérience, nous sommes devenus un acteur incontournable dans le domaine de la douane et du transit au Cameroun, reconnus pour notre expertise, notre intégrité et notre engagement envers l'excellence.
+                        Avec plus de 15 ans d&#39;expérience, nous sommes devenus un acteur incontournable dans le domaine de la douane et du transit au Cameroun, reconnus pour notre expertise, notre intégrité et notre engagement envers l&#39;excellence.
                     </p>
                 </div>
             </div>
