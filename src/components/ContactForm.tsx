@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import React, { useState } from 'react'
 
 export default function ContactForm() {
     const [formData, setFormData] = useState({
@@ -34,7 +34,8 @@ export default function ContactForm() {
             } else {
                 setStatus('error')
             }
-        } catch (error) {
+        } catch (e) {
+            console.error(e)
             setStatus('error')
         }
     }
@@ -102,7 +103,7 @@ export default function ContactForm() {
                 <p className="text-green-600">Votre message a été envoyé avec succès !</p>
             )}
             {status === 'error' && (
-                <p className="text-red-600">Une erreur s'est produite. Veuillez réessayer.</p>
+                <p className="text-red-600">Une erreur s&#39;est produite. Veuillez réessayer.</p>
             )}
         </form>
     )
