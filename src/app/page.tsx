@@ -1,6 +1,7 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import { ArrowRight, CheckCircle, Globe, TrendingUp } from 'lucide-react'
+import ParallaxSection from '@/components/ParallaxSection'
 
 export default function Home() {
   return (
@@ -75,6 +76,16 @@ export default function Home() {
             ))}
           </div>
         </section>
+
+       <ParallaxSection bgImage="/images/logistic.svg">
+        <div className="text-center text-white">
+          <h2 className="text-4xl font-heading font-bold mb-6">Notre engagement envers l&#39;excellence</h2>
+          <p className="text-xl mb-8 font-body">
+            Chez Douane Transit Cameroun, nous nous engageons à fournir des services de la plus haute qualité,
+            en veillant à ce que vos opérations douanières soient gérées avec efficacité et professionnalisme.
+          </p>
+        </div>
+      </ParallaxSection>
 
         {/* CTA Section */}
         <section className="py-16 bg-cameroon-green rounded-lg text-white text-center">
