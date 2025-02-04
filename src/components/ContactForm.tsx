@@ -1,6 +1,7 @@
 'use client'
 
 import React, { useState } from 'react'
+import { toast } from 'sonner'
 
 export default function ContactForm() {
     const [formData, setFormData] = useState({
@@ -30,6 +31,7 @@ export default function ContactForm() {
 
             if (response.ok) {
                 setStatus('success')
+                toast.success('Votre message a été envoyé avec succès !')
                 setFormData({ name: '', email: '', subject: '', message: '' })
             } else {
                 setStatus('error')
